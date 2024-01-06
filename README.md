@@ -1,2 +1,2 @@
 # docker-strangelove
-...or, why I stopped worrying and learned to love the container.
+## or: How I Learned to Stop Worrying and Love the Container 
