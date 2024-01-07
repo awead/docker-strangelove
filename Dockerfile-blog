@@ -1,0 +1,10 @@
+FROM ruby:3.2
+
+WORKDIR /blog
+
+COPY blog ./
+
+RUN bundle install
+
+CMD ["bundle", "exec", "rails", "s", "-b", "0.0.0.0"]
+
