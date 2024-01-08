@@ -1,0 +1,1 @@
+docker run --rm -v $(pwd):/blog -w /blog -ti blog rspec "$@"
